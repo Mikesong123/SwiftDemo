@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SwiftDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,10 +29,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23CF27B2BA6AC7125EFFEDA8C5AA819F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>474DF99C9FA931660443491C4CAA4DAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>735770707112ECB3F8E1EB0A911404B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,7 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE7C906C28A6BBC7184DD5706E89D601</key>
+		<key>F3DF3F99BA78020509CF5F5421710339</key>
 		<dict>
 			<key>primary</key>
 			<true/>
