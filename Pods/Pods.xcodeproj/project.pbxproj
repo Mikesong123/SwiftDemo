@@ -108,6 +108,7 @@
 		E4F935FE5E6AEF6B32CC472782C8C74F /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 4339C949FA1D7E12B2686715D0A06858 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7140336EA6E5E0B0FFC4409F1756B9D /* Pods-SwiftDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F210F7C420B216A1B0FE6D2344661908 /* Pods-SwiftDemoUITests-dummy.m */; };
 		E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 872ED513AFE53976DC6BA094F8399F4A /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB73A5491D38D71D00751A96 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EB73A5481D38D71D00751A96 /* Podfile */; };
 		EC74E4C1D041484097AAF79133E084DD /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 202EAC812831C94F1EAAE3050050E05E /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E08609B34206E5322C4985EFA3294CBD /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE9FFD29ED0223BB83A177392BCF976D /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ADB89AF1E56085BE8C9480B85FADBC /* UIImage+GIF.m */; };
@@ -285,6 +286,7 @@
 		E8F019ECC030F43B9339DCC3847DE711 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		E9AD86418D66D852F6348302A7A16F83 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
 		E9E897B10427129C9B22CDE31BF1208A /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		EB73A5481D38D71D00751A96 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		EB863EF9C450E25ED201F57BAE972A1C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		ECF3959797BADAF02BE6857BCD3E98F7 /* Pods-SwiftDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftDemoUITests.modulemap"; sourceTree = "<group>"; };
 		ED82D4F49830DC4BE3640709CEA90C3D /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -543,6 +545,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				EB73A5481D38D71D00751A96 /* Podfile */,
 				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
 				87F7DE2E23A5DC25AE245A2BC5A196EF /* Pods */,
 				226322022EB9036A1E193DFDFABA0818 /* Products */,
@@ -989,6 +992,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB73A5491D38D71D00751A96 /* Podfile in Resources */,
 				40443A69431004FA417EE5C733C9084A /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
