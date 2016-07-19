@@ -15,7 +15,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        window?.makeKeyAndVisible()
+        
+        window?.rootViewController = (UserModel.loadCurrentUser()?.accessToken == nil) ? TabbarController() : WelcomeViewController()
+        
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "changeViewController:", name: "changeRootViewController", object: nil)
+
         return true
+    }
+    
+    func changeViewController(noti:NSNotification) {
+//       if noti.object is 
+        NSLog("huanyin")
     }
 
     func applicationWillResignActive(application: UIApplication) {
